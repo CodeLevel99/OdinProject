@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">	
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	
+	<div id="title">
+		<h1>SketchPad - Draw some stuff with your mouse</h1>
+	</div>
+
+	<div id="toolbar">
+		<button id="new" onclick="defaultGrid()">Start new Sketchpad</button>
+		<button id="change" onclick="changeDims()">Change dimmensions</button>
+		<button id="colour">Select colour</button>
+	</div>
+
+	<div id="input">
+		<form id="grid-input">
+			<input type="text" size="75" placeholder="Enter how many rows is needed"></input>	
+		</form>
+	</div>
+
+	<div id="container"></div>
+
+</body>
+</html>
