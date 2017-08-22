@@ -39,7 +39,7 @@ html {
 
 .unit {
 
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	width: 15px;
 	height: 15px;
 	float: left;

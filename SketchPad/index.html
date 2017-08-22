@@ -9,13 +9,14 @@
 <body>
 	
 	<div id="title">
-		<h1>SketchPad - Draw some stuff with your mouse</h1>
+		<h1>SketchPad - Draw some cool stuff with your mouse</h1>
+		<h3>Click on Sketchpad to begin drawing</h2>
 	</div>
 
 	<div id="toolbar">
-		<button id="new" onclick="defaultGrid()">Start new Sketchpad</button>
-		<button id="change" onclick="changeDims()">Change dimmensions</button>
-		<button id="colour">Select colour</button>
+		<button class="tools" onclick="clearGrid()">Clear Sketchpad</button>
+		<button class="tools" onclick="changeDims()">Change dimmensions</button>
+		<button class="tools">Select colour</button>
 	</div>
 
 	<div id="input">
@@ -24,7 +25,9 @@
 		</form>
 	</div>
 
-	<div id="container"></div>
+	<div id="container">
+		
+	</div>
 
 </body>
 </html>
